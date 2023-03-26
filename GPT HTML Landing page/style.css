@@ -1,0 +1,426 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+header img {
+  max-height: 150px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.headline {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.headline h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+
+
+
+/* Video */
+.video {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.video h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video p {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.video video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+
+
+
+/* Section 3: Contact Form for Booking Tours or Registration */
+#contact-form-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#contact-form-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+#contact-form-section p {
+  font-size: 18px;
+  margin: 10px 0 30px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact-form .form-group {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+#contact-form select,
+#contact-form input,
+#contact-form textarea {
+  border: none;
+  border-radius: 0;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+#contact-form select {
+  background-color: #fff;
+  color: #555;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#contact-form button {
+  background-color: #0099ff;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 20px auto 0;
+  display: block;
+}
+
+
+
+
+#map {
+  width: 300%;
+}
+
+
+
+
+/* Section 6: Why Choose Maple Bear */
+section#choose-maple-bear img {
+  max-width: 20%;
+  height: auto;
+}
+
+#section6 {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+}
+
+#section6 .subheading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#section6 .point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#section6 .point img {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+#section6 .point h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#section6 .point p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 0;
+  max-width: 500px;
+}
+
+
+
+
+
+
+.target-audience {
+  padding: 50px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 36px;
+  color: #333;
+  margin: 0;
+}
+
+.image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.column {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.column h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+
+
+
+
+#testimonials {
+  background-color: #f6f6f6;
+  padding: 80px 0;
+}
+
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.call-to-action p {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Maple Bear colors */
+#testimonials {
+  background-color: #f6f6f6;
+}
+
+#testimonials .btn {
+  background-color: #fdcf51;
+}
+
+#testimonials .btn:hover {
+  background-color: #f8c72c;
+}
+
+/* Background pattern */
+#testimonials {
+  background-image: url('backgroundpattern.jpg');
+  background-repeat: repeat;
+}
+
+
+
+
+
+#contact {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 48px;
+  color: #fff;
+  background-color: #1e3a56;
+  padding: 20px;
+  display: inline-block;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contact-info div {
+  margin-right: 50px;
+}
+
+.contact-info i {
+  font-size: 36px;
+  color: #1e3a56;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 24px;
+  color: #1e3a56;
+}
+
+.map {
+  margin-top: 50px;
+}
+
+
+
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.social-icons a {
+  margin-left: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+  color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+
+
